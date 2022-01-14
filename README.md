@@ -1,6 +1,6 @@
-# Kame Settings Module
+# KaMe Settings
 
-This package provides the settings module for the _KAME_, a simple cms made with laravel, livewrire and tailwind.
+This package provides the settings module for the _KAME_, a simple cms made with laravel, livewire and tailwind.
 
 ### Requirements
 
@@ -23,6 +23,10 @@ Publish config file.
 php artisan vendor:publish --tag=setting
 ```
 
+### Configure
+
+You can change the options of your app from `config/setting.php` file
+
 ### Database
 
 Create table for database Model
@@ -31,10 +35,6 @@ Create table for database Model
 php artisan migrate
 ```
 
-### Configure
-
-You can change the options of your app from `config/setting.php` file
-
 ### Facade
 
 ```php
@@ -42,7 +42,7 @@ You can change the options of your app from `config/setting.php` file
 Setting::get('foo', 'default');
 // Parameters: key, value, readOnly (optional, default false)
 Setting::set('foo', 'default');
-// Note: (ReadOnly attributes are for properties/cofiguration that shouldn't delete from the backend panel)
+// Note: (ReadOnly attributes are for properties/configuration that shouldn't delete from the backend panel)
 ```
 
 ### Blade Directive
