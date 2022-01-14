@@ -10,6 +10,6 @@ All notable changes to `kame-settings` will be documented in this file
 
 - Refactored to use `kame-settings`
 
-## 0.2.1 - 2012-01-14
+## 0.2.3 - 2012-01-14
 
 - Fixed bug in `kame-settings`

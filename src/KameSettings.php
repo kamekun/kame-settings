@@ -1,10 +1,10 @@
 <?php
 
-namespace kamekun\Kame;
+namespace kamekun\KameSettings;
 
-use App\Setting as SettingModel;
+use App\Models\KameSettings as SettingModel;
 
-class Setting
+class KameSettings
 {
     /**
      * Set value against a key.

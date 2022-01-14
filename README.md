@@ -4,7 +4,7 @@ This package provides the settings module for the _KAME_, a simple cms made with
 
 ### Requirements
 
-    PHP >= 7.1
+    PHP >= 7.3|8.0
     Laravel >=7.X
 
 ### Installation
