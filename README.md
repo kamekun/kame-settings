@@ -42,7 +42,7 @@ You can change the options of your app from `config/setting.php` file
 Setting::get('foo', 'default');
 // Parameters: key, value, readOnly (optional, default false)
 Setting::set('foo', 'default');
-// Note: (ReadOnly attributes are for properties/cofiguration that shouldn't delete from the backend panel)
+// Note: (ReadOnly attributes are for properties/configuration that shouldn't delete from the backend panel)
 ```
 
 ### Blade Directive
