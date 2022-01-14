@@ -1,6 +1,6 @@
-# Kame Settings Module
+# KaMe Settings
 
-This package provides the settings module for the _KAME_, a simple cms made with laravel, livewrire and tailwind.
+This package provides the settings module for the _KAME_, a simple cms made with laravel, livewire and tailwind.
 
 ### Requirements
 
@@ -23,6 +23,10 @@ Publish config file.
 php artisan vendor:publish --tag=setting
 ```
 
+### Configure
+
+You can change the options of your app from `config/setting.php` file
+
 ### Database
 
 Create table for database Model
@@ -30,10 +34,6 @@ Create table for database Model
 ```bash
 php artisan migrate
 ```
-
-### Configure
-
-You can change the options of your app from `config/setting.php` file
 
 ### Facade
 
