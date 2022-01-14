@@ -1,10 +1,10 @@
 <?php
 
-namespace kamekun\Settings;
+namespace Kamekun\KameSettings;
 
 use Illuminate\Support\ServiceProvider;
 
-class SetttingsServiceProvider extends ServiceProvider
+class KameSettingsServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -14,10 +14,10 @@ class SetttingsServiceProvider extends ServiceProvider
         /*
          * Optional methods to load your package assets
          */
-        // $this->loadTranslationsFrom(__DIR__.'/../publish/resources/lang', 'aaaa');
-        // $this->loadViewsFrom(__DIR__.'/../publish/resources/views', 'aaaa');
-        // $this->loadMigrationsFrom(__DIR__.'/../publish/migrations');
         // $this->loadRoutesFrom(__DIR__.'/routes.php');
+        $this->loadMigrationsFrom(__DIR__ . '/../publish/database/migrations');
+        $this->loadTranslationsFrom(__DIR__ . '/resources/lang', 'kame-settings');
+        $this->loadViewsFrom(__DIR__ . '/../publish/resources/views', 'kame-settings');
 
         if ($this->app->runningInConsole()) {
             $this->publishes([
@@ -50,11 +50,11 @@ class SetttingsServiceProvider extends ServiceProvider
     public function register()
     {
         // Automatically apply the package configuration
-        $this->mergeConfigFrom(__DIR__ . '/../publish/config/config.php', 'kame-settings');
+        $this->mergeConfigFrom(__DIR__ . '/../config/config.php', 'kame-settings');
 
         // Register the main class to use with the facade
         $this->app->singleton('kame-settings', function () {
-            return new Settings;
+            return new KameSettings;
         });
     }
 }
