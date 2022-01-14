@@ -14,14 +14,13 @@
         {
             "name": "KaMeKuN",
             "email": "kame.laravel@gmail.com",
-            "homepage": "https://github.com/kamekun"
+            "homepage": "https://github.com/kame"
         }
     ],
     "require": {
-        "php": "^7.2|^8.0",
+        "php": "^7.2||^8.0",
         "livewire/livewire": "2.*",
-        "laravel/framework": "^7.0|^8.0"
-
+        "laravel/framework": "^7.0||^8.0"
     },
     "autoload": {
         "psr-4": {
