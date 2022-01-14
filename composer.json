@@ -1,11 +1,14 @@
 {
-    "name": "kamekun/kame-alerts",
+    "name": "kamekun/kame-settings",
     "license": "MIT",
+    "type": "package",
     "description": "Settings Module for KaMe a simple laravel CMS",
     "keywords": [
         "laravel",
         "cms",
-        "crm"
+        "crm",
+        "livewire",
+        "kame-settings"
     ],
     "authors": [
         {
@@ -15,7 +18,10 @@
         }
     ],
     "require": {
-        "php": "^7.1"
+        "php": "^7.2|^8.0",
+        "livewire/livewire": "2.*",
+        "laravel/framework": "^7.0|^8.0"
+
     },
     "autoload": {
         "psr-4": {
@@ -24,5 +30,10 @@
         "files": [
             "src/helpers.php"
         ]
-    }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
 }
