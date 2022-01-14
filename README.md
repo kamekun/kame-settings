@@ -38,10 +38,11 @@ You can change the options of your app from `config/setting.php` file
 ### Facade
 
 ```php
+// Parameters: key, value
 Setting::get('foo', 'default');
-// Parameters ley, value, readOnly
-(ReadOnly attributes are for properties/cofiguration that shouldn't delete from the backend panel)
-Setting::set('foo', 'default', true);
+// Parameters: key, value, readOnly (optional, default false)
+Setting::set('foo', 'default');
+// Note: (ReadOnly attributes are for properties/cofiguration that shouldn't delete from the backend panel)
 ```
 
 ### Blade Directive
