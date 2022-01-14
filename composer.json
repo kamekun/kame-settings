@@ -1,0 +1,28 @@
+{
+    "name": "kamekun/kame-alerts",
+    "license": "MIT",
+    "description": "Settings Module for KaMe a simple laravel CMS",
+    "keywords": [
+        "laravel",
+        "cms",
+        "crm"
+    ],
+    "authors": [
+        {
+            "name": "KaMeKuN",
+            "email": "kame.laravel@gmail.com",
+            "homepage": "https://github.com/kamekun"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kamekun\\kame\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
