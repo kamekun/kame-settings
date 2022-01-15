@@ -2,7 +2,6 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/kamekun/kame-settings.svg?style=flat-square)](https://packagist.org/packages/kamekun/kame-settings)
 [![Total Downloads](https://img.shields.io/packagist/dt/kamekun/kame-settings.svg?style=flat-square)](https://packagist.org/packages/kamekun/kame-settings)
-![GitHub Actions](https://github.com/kamekun/kame-settings/actions/workflows/main.yml/badge.svg)
 
 This package provides the settings module for the _KAME_, a simple cms made with laravel, livewire and tailwind.
 
