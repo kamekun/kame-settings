@@ -20,12 +20,16 @@
     "require": {
         "php": "^7.3|^8.0",
         "livewire/livewire": "2.*",
-        "laravel/framework": "^7.0|^8.0",
         "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "laravel/framework": "^7.0|^8.0",
+        "phpunit/phpunit": "^9.0"
     },
     "autoload": {
         "psr-4": {
-            "Kamekun\\kame\\": "src/"
+            "Kamekun\\KameSettings\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -35,5 +39,15 @@
         "sort-packages": true
     },
     "prefer-stable": true,
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "extra": {
+        "kamekun": {
+            "providers": [
+                "Kamekun\\KameSettings\\KameSettingsServiceProvider"
+            ],
+            "aliases": {
+                "KameSettings": "Kamekun\\KameSettings\\KameSettingsFacade"
+            }
+        }
+    }
 }

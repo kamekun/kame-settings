@@ -4,6 +4,10 @@ namespace Kamekun\KameSettings;
 
 use Illuminate\Support\ServiceProvider;
 
+/**
+ * Class KameSettingsServiceProvider
+ * @package App\Providers
+ */
 class KameSettingsServiceProvider extends ServiceProvider
 {
     /**
