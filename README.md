@@ -28,7 +28,7 @@ php artisan vendor:publish --tag=setting
 
 ### Configure
 
-You can change the options of your app from `config/setting.php` file
+You can change the options of your app from `config/kame-settings.php` file
 
 ### Database
 

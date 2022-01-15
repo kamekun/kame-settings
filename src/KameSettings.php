@@ -1,6 +1,6 @@
 <?php
 
-namespace kamekun\KameSettings;
+namespace Kamekun\KameSettings;
 
 use App\Models\KameSettings as SettingModel;
 
