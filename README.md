@@ -23,7 +23,7 @@ composer require kamekun/kame-settings
 Publish config file.
 
 ```bash
-php artisan vendor:publish --tag=setting
+php artisan vendor:publish --tag="Kamekun\\KameSettings\\KameSettingsServiceProvider"
 ```
 
 ### Configure
