@@ -1,5 +1,9 @@
 # KaMe Settings
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/kamekun/kame-settings.svg?style=flat-square)](https://packagist.org/packages/kamekun/kame-settings)
+[![Total Downloads](https://img.shields.io/packagist/dt/kamekun/kame-settings.svg?style=flat-square)](https://packagist.org/packages/kamekun/kame-settings)
+![GitHub Actions](https://github.com/kamekun/kame-settings/actions/workflows/main.yml/badge.svg)
+
 This package provides the settings module for the _KAME_, a simple cms made with laravel, livewire and tailwind.
 
 ### Requirements
@@ -49,6 +53,10 @@ Setting::set('foo', 'default');
 
 You can get the settings directly in your blade templates using the helper method or the blade directive like `@setting('foo')`
 
+### Changelog
+
+Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+
 ### Contributing
 
 I am open to contributions to this package, and will do the best I can to maintain it over time.
@@ -62,6 +70,8 @@ Some considerations for future versions:
 - Add support for save / read settings from json file
 
 ### Credits and License
+
+- [KaMekuN](https://github.com/kamekun)
 
 - Taylor Otwell and co. for Laravel
 
