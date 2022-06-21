@@ -44,7 +44,7 @@ php artisan migrate
 // Parameters: key, value
 Setting::get('foo', 'default');
 // Parameters: key, value, readOnly (optional, default false)
-Setting::set('foo', 'default');
+Setting::set('foo', 'default', true);
 // Note: (ReadOnly attributes are for properties/configuration that shouldn't delete from the backend panel)
 ```
 
