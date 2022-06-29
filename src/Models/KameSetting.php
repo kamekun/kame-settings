@@ -13,7 +13,7 @@ class KameSetting extends Model
      *
      * @var string
      */
-    protected $table = 'settings';
+    protected $table = 'kame_settings';
 
     /**
      * The database primary key value.

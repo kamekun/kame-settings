@@ -29,7 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Kamekun\\KameSettings\\": "src/"
+            "KameSettings\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -43,10 +43,10 @@
     "extra": {
         "kamekun": {
             "providers": [
-                "Kamekun\\KameSettings\\KameSettingsServiceProvider"
+                "KameSettings\\KameSettingsServiceProvider"
             ],
             "aliases": {
-                "KameSettings": "Kamekun\\KameSettings\\KameSettingsFacade"
+                "KameSettings": "KameSettings\\KameSettingsFacade"
             }
         }
     }
